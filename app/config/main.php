@@ -19,6 +19,7 @@ return array(
      */
     'filter'=>array(
         /* '*'=>
+            //角色控制过滤器 还未添加
              array('*'=>'app\components\filters\RbacFilter'
              ),*/
         '*'=>array(
