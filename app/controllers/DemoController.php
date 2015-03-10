@@ -12,8 +12,12 @@ namespace app\controllers;
 use app\components\Controller;
 
 class DemoController extends Controller{
+    public $layout = null;
     public $test = 5;
     public function tAction() {
-        echo 123;
+        $this->render('index');
+    }
+    public function iAction() {
+        $this->render('iphone');
     }
 }

@@ -11,7 +11,7 @@ use framework\web\App;
 use framework\web\CController;
 
 class Controller extends CController{
-    public $layout = 'main';
+    public $layout = null; //首尾分离用
     public $html_title = "a demon for zz framework";
     public $navigation_title = "demon";
 

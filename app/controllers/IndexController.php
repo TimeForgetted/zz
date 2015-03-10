@@ -7,9 +7,9 @@
  */
 
 //todo intern need to be changed
+//文件没有完成
 namespace app\controllers;
 
-//加载组件和models
 use app\components\Controller;//控制器
 use app\components\Pagination;//分页
 use app\models\Intern;//产品
@@ -24,7 +24,7 @@ class IndexController extends Controller
 
     public function indexAction()
     {
-        $this->layout = "header_icon";
+        //$this->layout = "header_icon";
         $this->render('index');
     }
 
