@@ -12,6 +12,6 @@ interface IModel {
     public function save($datas, $pk_value = null);
     public function delete($where=null);
     public function deleteByPk($pk_v);
-    public function  findByPk($pk_v, $fields);
+    public function findByPk($pk_v, $fields);
     public function getLastInsertId();
 } 

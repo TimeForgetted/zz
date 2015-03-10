@@ -4,8 +4,8 @@
  */
 
 namespace framework\db\mysql;
-
-
+//MySQL服务器池 当然现在只有一台
+//可读可写ALL_TYPE 只读WRITE_TYPE 只写 WRITE_TYPE
 use framework\web\App;
 
 class MysqlPool {

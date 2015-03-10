@@ -6,7 +6,7 @@
 namespace framework\db;
 
 
-
+//设计用于实现Active Record功能
 abstract class SqlHelper implements ISqlHelper{
     public $table;
     public $where;

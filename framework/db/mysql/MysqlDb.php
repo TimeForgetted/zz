@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by xuyi
- * 连接MySQL数据库
+ * 连接MySql数据库
  */
 
 namespace framework\db\mysql;
@@ -35,7 +35,6 @@ class MysqlDb extends Db {
 
     public function query($sql, $params = null)
     {
-        // TODO: Implement query() method.
         if($this->ins_type !== MysqlPool::READ_TYPE)
             $this->ins = self::getReadIns();
         $this->ins_type = MysqlPool::READ_TYPE;
