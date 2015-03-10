@@ -1,8 +1,4 @@
 <?php
-/**
- * Created by xuyi
- *
- */
 
 namespace framework\web;
 
@@ -16,8 +12,8 @@ class Request {
         $this->getRequestUri();
     }
     private $_baseUrl;
-    private  $_requestUri;
-    private  $_scriptFile;
+    private $_requestUri;
+    private $_scriptFile;
     private $_port;
     private $_hostInfo;
 
@@ -47,7 +43,7 @@ class Request {
             if(!empty($_SERVER['QUERY_STRING']))
                 $this->_requestUri.='?'.$_SERVER['QUERY_STRING'];
         }
-
+        //echo $this->_requestUri;
         return $this->_requestUri;
     }
     public function getQueryString()

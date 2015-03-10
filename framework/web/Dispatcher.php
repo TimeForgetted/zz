@@ -42,7 +42,7 @@ abstract class Dispatcher {
      * @param $controller
      * @param $action
      */
-    public  function exec($controller, $action) {
+    public function exec($controller, $action) {
         //先将控制器和方法转为小写
         $controller = strtolower($controller);
         $action = strtolower($action);

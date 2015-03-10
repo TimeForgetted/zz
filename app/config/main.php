@@ -23,8 +23,8 @@ return array(
              array('*'=>'app\components\filters\RbacFilter'
              ),*/
         '*'=>array(
-            '*'=>'app\components\filters\ControllerFilter'
-        )
+            '*'=>'app\components\filters\NormalFilter'
+          )
     ),
     /**
      * 特殊路由

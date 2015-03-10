@@ -1,7 +1,5 @@
 <?php
-/**
- * Created by xuyi
- */
+
 
 namespace framework\web;
 
